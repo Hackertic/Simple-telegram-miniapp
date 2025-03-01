@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Mini App</title>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link rel="stylesheet" href="assets/styles/dark-mode.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="profile">
+            <img id="avatar" src="assets/images/default-avatar.svg" alt="User Avatar">
+            <span id="username">Loading...</span>
+        </div>
+        <div class="menu">
+            <button id="menu-button">⋮</button>
+            <div class="dropdown">
+                <button id="toggle-theme">Toggle Theme</button>
+                <div class="profit-info">
+                    <p><strong>Name:</strong> <span id="profit-name">Loading...</span></p>
+                    <p><strong>Username:</strong> <span id="profit-username">Loading...</span></p>
+                    <p><strong>UID:</strong> <span id="profit-uid">Loading...</span></p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Balance Counter -->
+    <main>
+        <div class="balance-container">
+            <p>Balance: <span id="balance">0</span></p>
+            <img id="click-button" src="assets/images/rocket-rntXRe4e.gif" alt="Click to Earn">
+        </div>
+    </main>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="index.html" class="active"><img src="assets/images/home.svg"> Home</a>
+        <a href="pages/tasks.html"><img src="assets/images/icon-tasks.svg"> Tasks</a>
+        <a href="pages/bonuses.html"><img src="assets/images/bot-publishing.svg"> Bonuses</a>
+        <a href="pages/referrals.html"><img src="assets/images/friends.svg"> Referrals</a>
+        <a href="pages/status.html"><img src="assets/images/statistics-14.svg"> Status</a>
+    </nav>
+
+    <!-- JavaScript Files -->
+    <script src="assets/scripts/config.js"></script>
+    <script src="assets/scripts/telegram.js"></script>
+    <script src="assets/scripts/main.js"></script>
+    <script src="assets/scripts/tasks.js"></script>
+    <script src="assets/scripts/referral.js"></script>
+    <script src="assets/scripts/status.js"></script>
+</body>
+</html>
