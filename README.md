@@ -19,6 +19,6 @@
 │
 ├── pages/
 │   ├── tasks.html              # Tasks page (list of tasks)
-│   ├── referrals.html          # Referral page (referral list & link)
+│   ├── referrals.html          # Referral page (referral list && link)
 │   ├── bonuses.html            # Bonuses page (future use)
 │   ├── status.html             # Bot statistics page
