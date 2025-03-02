@@ -1,12 +1,3 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const tg = window.Telegram.WebApp;
-
-    // Ensure the app runs inside Telegram only
-    if (!tg.initDataUnsafe || !tg.initDataUnsafe.user) {
-        document.body.innerHTML = "<h2>Access Denied: Open in Telegram</h2>";
-        return;
-    }
-
     // Get user info
     const user = tg.initDataUnsafe.user;
     document.getElementById("username").textContent = user.username || "No Username";
