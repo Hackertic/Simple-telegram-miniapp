@@ -1,4 +1,4 @@
-const BOT_ID = "YOUR_TELEGRAM_BOT_ID";  // Replace with your bot ID
+const BOT_ID = "7932272738";  // Replace with your bot ID
 
 document.addEventListener("DOMContentLoaded", () => {
     if (window.Telegram && Telegram.WebApp) {
